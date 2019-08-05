@@ -1,154 +1,89 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<html style="background-color: 23272A">
+  <head style="background-color: 23272A">
     <title>Daniel Nesov</title>
-    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css" />
   </head>
 
-  <body style="background-color: #2C2F33">
-    <div align="center" id="introduction">
-      <h3 class="title2">Oh, hi! I'm</h3>
-			<img style="height: 100px; width: 100px; border-radius: 50%" src="https://yt3.ggpht.com/a-/ACSszfG6d-dDze7Edaldufjxggr1S2wZ9v28qks_HQ=s900-mo-c-c0xffffffff-rj-k-no"></img>
-			<h1 class="title" style="color: #7289DA">DANIEL NESOV</h1>
-			<div style="margin-bottom: 20px; margin-top:5px" id="skills" align="center">
-				<center>
-				<div class="badge">
-					<span class="text">GAME DEVELOPER | DESIGNER | WEB DEVELOPER</span>
-				</div>
-				</center>
-			</div>
+  <body style="background-color: 23272A; margin: 0px;">
+    <script src="js/uikit.min.js"></script>
+    <div id="title" align="center" style="margin: 0px;">
+      <h1 style="color:white; margin: 0px; padding-top: 5%; font-size: 100px; font-weight: 600">
+        Daniel Nesov
+      </h1>
+      <p style="margin-top:0px;">PROGRAMMER | DESIGNER | GAME DEVELOPER</p>
+	</div>
+	
+	<div id="buttonList" align="center">
+		<button class="uk-button uk-button-default" style="color: white; border: solid 1px red">YOUTUBE</button>
+		<button class="uk-button uk-button-default" style="color: white; border: solid 1px #1DA1F2">TWITTER</button>
+		<button class="uk-button uk-button-default" style="color: white; border: solid 1px #E85B46">PATREON</button>
+		<hr class="uk-margin-large" style="margin-top: 2%!important">
+	</div>
 
-			<div class="jobTitle">
-				<span class="titleArticle">GAME DEVELOPER</span>
-				<div class="jobDesc">
-				<span class="text">I'm intermediate indie game developer. <br> My team, Pravum Games is currently developing DYINGWORLD, a multiplayer first person shooter set in 2025.</span>
-				</div>
-			</div>
-
-			<div class="jobTitle">
-				<span class="titleArticle">DESIGNER</span>
-							<div class="jobDesc">
-							<span class="text">Not my oldest skill nor hobby. I can make some simple graphics design, below are my example works: <br> </span>
-							<img src="example1.png" width="80%">
-							<br>
-							<img src="example3.png" width="80%">
-							<br>
-							<img src="example2.png" width="60%">
-							</div>
+	<div id="descriptions" align="center">
+			<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #2C2F33">
+						<h3 class="uk-card-title">PROGRAMMER</h3>
+						<p>I'm intermediate web programmer. I'm proficient with JavaScript/TypeScript, Node.js C#, and C++. </p>
+						<div class="uk-card-footer">
+							<a href="https://github.com/dnesov" class="uk-button uk-button-text">MY GITHUB</a>
 						</div>
-						<div class="jobTitle">
-							<span class="titleArticle">WEB DEVELOPER</span>
-													<div class="jobDesc">
-													<span class="text">intermediate skills in writing Node.JS applications, Discord bot developer, and i'm designing websites (portfolio site was made by me)</span>
-													</div>
-												</div>
-				<div style="margin-top:40px" class="jobTitle">
-					<h1 class="titleArticle">SKILLS</h1>
+					</div>
 				</div>
-			<div id="skills">
-				<h1 class="text">JAVASCRIPT</h1>
-				<div id="progressbar">
-					<div style="width: 95%"></div>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #7289DA">
+						<h3 class="uk-card-title">DESIGNER</h3>
+						<p>I'm not a professional designer, but I know some basics in this branch and can do some design work if necessary.</p>
+						<div class="uk-card-footer">
+							<a href="exampleWorks.html" class="uk-button uk-button-text">EXAMPLE WORKS</a>
+						</div>
+					</div>
 				</div>
-				<h1 class="text">C#</h1>
-				<div id="progressbar">
-					<div style="width: 40%"></div>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #017E47">
+						<h3 class="uk-card-title">GAME DEVELOPER</h3>
+						<p>I have 3 years of experience in game development. I'm proficient with Construct 2, Unreal Engine 4 and Godot. I'm currently working as a Lead Gameplay Designer and Programmer at <a href="https://pravumgames.github.io">Pravum</a></a></p>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light" style="background-color: #1F002D;">
+						<h3 class="uk-card-title">OTHER</h3>
+						<p>I'd love to experiment with other branches like music, film making and others!</p>
+					</div>
+				</div>
+	
 			</div>
-				<h1 class="text">DISCORD.JS</h1>
-				<div id="progressbar">
-				<div style="width: 79%"></div>
+			
+	</div>
+
+	<div id="contact" align="center" style="margin-top: 5%;">
+		<h1 style="color: white; margin: 0px;">Contact</h1>
+		<p style="margin-top:0px;">If you have any questions, business inquires, or you just want to simply talk, feel free to contact me:</p>
+		<div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid style="max-width: 50%">
+				<div>
+					<div class="uk-card uk-card-primary uk-card-body" style="background-color:teal">
+						<h3 class="uk-card-title">EMAIL</h3>
+						<p>contact.dnesov@gmail.com</p>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-body" style="background-color: #7289DA">
+						<h3 class="uk-card-title">DISCORD</h3>
+						<p>Daniel Nesov#9358</p>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card uk-card-secondary uk-card-body" style="background-color: #1DA1F2">
+						<h3 class="uk-card-title">Twitter</h3>
+						<p>@NesovDaniel</p>
+					</div>
+				</div>
 			</div>
-				<h1 class="text">NODE.JS</h1>
-				<div id="progressbar">
-				<div style="width: 85%"></div>
-			</div>
-				<h1 class="text">UNREAL ENGINE 4</h1>
-				<div id="progressbar">
-				<div style="width: 80%"></div>
-			</div>
-				<h1 class="text">HTML & CSS</h1>
-				<div id="progressbar">
-				<div style="width: 75%"></div>
-			</div>
-			<h1 class="text">DESIGN</h1>
-			<div id="progressbar">
-			<div style="width: 50%"></div>
-		</div>
-		</div>
+	</div>
+
+	<footer style="margin-top: 5%;" align="center">
+		<p>Daniel Nesov, made with ❤️ using <b><a href="https://getuikit.com/">UIKit</a></b></p>
+	</footer>
   </body>
 </html>
-<style>
-	 @import url('https://fonts.googleapis.com/css?family=Roboto');
-	.dnesovLine {
-		border-top: 3px solid black;
-		border-radius: 10px;
-		height: 0px;
-		margin: 0px;
-	}
-	.title {
-		 font-family: 'Roboto', sans-serif;
-		 font-size: 50px;
-		 margin-top: 10px;
-		 margin-bottom: 20px;
-	 	 border: 3px solid #23272A;
-	   border-radius: 10px;
-	   color: solid #23272A;
-	   width: 500px;
-		 background-color: #23272A;
-	}
-	.title2 {
-		margin-bottom: 10px;
-		font-family: 'Roboto', sans-serif;
-		color: white
-	}
-	.text {
-		font-family: 'Roboto', sans-serif;
-		color: white 
-	}
-	.titleArticle {
-		 font-family: 'Roboto', sans-serif;
-		 font-size: 30px;
-		 margin-top: 5px;
-		 color:white;
-		 margin-bottom: 20px;
-	}
-div.badge { 
-	 margin: 5px;
-	 border: 3px solid #7289DA;
-	 border-radius: 10px;
-	 color: solid #7289DA;
-	 width: 400px;
-	 background-color: #7289DA;
-	}
-div.jobTitle {
-   margin: 20px;
-	 border: 3px solid #7289DA;
-	 border-radius: 10px;
-	 color: solid #7289DA;
-	 width: 500px;
-	 background-color: #7289DA;
-}
-div.jobDesc {
-   margin: 0px;
-	 border: 3px solid rgb(75, 82, 85);
-	border-radius: 10px;
-	 color: solid rgb(75, 82, 85);
-	 background-color: rgb(75, 82, 85);
-}
-#progressbar {
-  background-color: black;
-  border-radius: 2px;
-  padding: 3px;
-	text-align: left;
-	width: 300px
-	
-}
-
-#progressbar>div {
-  background-color: #7289DA;
-  width: 43%;
-  height: 10px;
-  border-radius: 2px;
-}
-	
-</style>
